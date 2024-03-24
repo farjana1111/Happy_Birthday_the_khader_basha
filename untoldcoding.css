@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #48dbfb;
+background-image: linear-gradient(315deg, #48dbfb 0%, #d3d3d3 74%);
+
+  /* background: #d8069d; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  color: white;
+}
+
+.tag {
+  height: 100px;
+  width: 445px;
+  background: linear-gradient(rgb(85, 183, 225), rgb(10, 85, 146));
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: helvetica;
+  line-height: 80px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-top: -50px;
+  box-shadow: 0 0 10px -3px #ffffff inset;
+}
+/*.tag:after {
+  content: "Bestfriend";
+}
+*/
+.container .tag :hover {
+  color: rgb(247, 247, 62);
+}
+.ribbon {
+  width: 100%;
+  height: 20px;
+  /* background: rgb(235, 113, 85); */
+  background: beige;
+  box-shadow: 0 0 10px -3px #221d1d;
+}
+.tag a {
+  color: white;
+  text-decoration: none;
+}
+p {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  top: 60%;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+}
